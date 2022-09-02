@@ -44,7 +44,6 @@ const options = {
       enable: false,
     },
     move: {
-      direction: "none",
       enable: true,
       outModes: {
         default: 'bounce',

@@ -1,5 +1,5 @@
-import '../styles/globals.css'
 import Head from 'next/head';
+import 'normalize.css';
 
 function App({Component, pageProps}) {
   return (
@@ -15,7 +15,7 @@ function App({Component, pageProps}) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Stabsoft, Grzegorz Martowski" />
-        <meta name="copyright" content="2014 Stabsoft Wrocław" />
+        <meta name="copyright" content="2022 Stabsoft Wrocław" />
         <meta name="description" content="Projektowanie stron internetowych Wrocław, szablony stron WWW, podpięcie pod system zarządzania treścią CMS,
               projekty stron na szablonach Wordpress, projekty stron zgodne z RWD - Responsive Web Design, Webmastering, Webdesign, Webdevelopment,
               strony internetowe firm, prywatne, blogi, portfolia, strony WWW na zamówienie" />

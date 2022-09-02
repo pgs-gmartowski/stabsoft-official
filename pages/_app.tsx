@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import 'normalize.css';
+import Script from 'next/script';
 
 function App({Component, pageProps}) {
   return (
@@ -23,6 +24,19 @@ function App({Component, pageProps}) {
               Wrocław, projekty stron WWW Wrocław, strony prywatne, blogi, portfolia, strony WWW dla firm, Stabsoft Wrocław" />
         <meta name="robots" content="index,follow" />
         <meta name="googlepray" content="Google please rank my site well" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {
+            `
+                window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-XGW6SXZZTS');
+          `
+          }
+
+        </Script>
       </Head>
       <Component {...pageProps} />
     </>

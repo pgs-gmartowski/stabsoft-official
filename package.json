@@ -1,10 +1,10 @@
 {
   "name": "stabsoft-official",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "ANALYZE=true next build",
+    "build": "ANALYZE=true next build && next export",
     "start": "next start",
     "lint": "next lint"
   },

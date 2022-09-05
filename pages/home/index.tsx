@@ -10,10 +10,10 @@ const HomePage = (): JSX.Element => (
       <figure>
         <picture>
           <source srcSet={'/images/stabsoft.png'} type={'image/png'} />
-          <img src={'/images/stabsoft.png'} alt={'StabSoft Logo'} />
+          <img src={'/images/stabsoft.png'} alt={'StabSoft Logo'} width={'171px'} height={'65px'} />
         </picture>
       </figure>
-      <Heading size={'h2'} title={'#frontenddeveloper, #reactjsdeveloper, #freelancer'} />
+      <Heading size={'h1'} title={'#frontenddeveloper, #reactjsdeveloper, #freelancer'} />
       <SocialMenu size={'large'} />
       <Footer />
     </HomePageStyled>

@@ -17,16 +17,14 @@ const HeadingStyled = styled.header`
   }
 
   h1 {
-    font-size: 84px;
-  }
-
-  h2 {
     font-size: 40px;
     margin: 5px 0;
   }
-
-  h3 {
-    font-size: 35px;
+  
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 30px;
+    }
   }
 `;
 
